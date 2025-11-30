@@ -1,0 +1,1429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<script>
+    _HOST_ = "//mooc1.chaoxing.com";
+    _CP_ = "/mooc-ans";
+    _HOST_CP1_ = "//mooc1.chaoxing.com/mooc-ans";
+    // _HOST_CP2_ = _HOST_ + _CP_;
+    _HOST_CP2_ = _CP_;
+</script><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>作业详情</title>
+<link rel="stylesheet" type="text/css" href="//mooc1.chaoxing.com/mooc-ans/mooc2/css/pop.css"/>
+<link rel="stylesheet" type="text/css" href="//mooc1.chaoxing.com/mooc-ans/mooc2/css/common.css?v=2025-0424-1038" />
+<link rel="stylesheet" type="text/css" href="//mooc1.chaoxing.com/mooc-ans/mooc2/css/marking_icon.css" />
+<link rel="stylesheet" type="text/css" href="//mooc1.chaoxing.com/mooc-ans/mooc2/css/viewStudent.css?v=2025-0813-1100" />
+<link rel="stylesheet" type="text/css" href="//mooc1.chaoxing.com/mooc-ans/mooc2/css/taskStudent_pop.css" />
+<link rel="stylesheet" type="text/css" href="//mooc1.chaoxing.com/mooc-ans/mooc2/css/oralTest.css?v=2022-0727-1100" />
+<link rel="stylesheet" type="text/css" href="//mooc1.chaoxing.com/mooc-ans/mooc2/css/animationQuestion.css" />
+<style type="text/css">
+	.classtips{margin: 30px 40px 0;padding:10px 20px;border: 1px solid #FBE59A;background: #FEFBE8;border-radius: 4px;font-size:14px;color:#474C59;}
+	.classtips .tipsPop{display:inline-block;width:16px;height:16px;vertical-align:middle;margin-right:8px;background:#ff0}
+	.classtips .tipsPop img{display:block;width:100%;height:100%}
+	/*知识点样式*/
+	.colorGray{color:#8A8B99}
+	.knowledgeList li{float:left;padding:6px 14px;background:#fff;border:solid 1px #DADFE5;border-radius:4px;margin-right:16px;font-size:12px;line-height:18px;box-sizing:border-box;overflow: hidden;
+		text-overflow: ellipsis;white-space: nowrap;max-width:110px;margin-bottom:16px}
+	.knowledgeList li:hover{ background: #CEE4F8}
+	.knowledgePointBx {margin-top:16px}
+	.knowledgePointBx .answerCon{width:calc(100% - 70px)}
+	.knowledgePointBx .answerCon ul li{padding:0;max-width:none}
+	.knowledgePointBx .answerCon ul li a{padding:6px 14px;display:block;max-width:300px;color:#8A8B99;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+	.knowledgePointBx .answerCon ul li a:hover{color:#3A8BFF}
+	/*知识点样式*/
+	.selfMarkScore{line-height: 29px;padding: 0 10px;height: 29px;background: rgba(251, 251, 251, 1);border-radius: 99px;border: 1px solid #F4F5F6;margin-top: 55px;}
+</style>
+			<style>
+			.workTextWrap * {
+				white-space: normal !important;
+			}
+		</style>
+	<link href="//mooc1.chaoxing.com/mooc-ans/mooc2/css/font.css?v=2025-0403-1500" rel="stylesheet" type="text/css" /><link href="//mooc1.chaoxing.com/mooc-ans/css/questionBank/questionBankUsual.css?v=2019-1120-1400" type="text/css" rel="stylesheet"/><script type="text/javascript" src="//mooc-res2.chaoxing.com/mooc-ans/js/common/jquery.min.js"></script>
+<script type="text/javascript" src="//mooc-res2.chaoxing.com/mooc-ans/js/common/jquery-migrate.min.js"></script><script type="text/javascript" src="//mooc1.chaoxing.com/mooc-ans/js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="//mooc1.chaoxing.com/mooc-ans/mooc2/js/poptoast.js"></script>
+<script type="text/javascript" src="//mooc1.chaoxing.com/mooc-ans/mooc2/js/poplayout.js?v=2022-0218-1500"></script>
+<script type="text/javascript" src="//mooc1.chaoxing.com/mooc-ans/mooc2/js/viewStudent.js"></script>
+<script src="//mooc1.chaoxing.com/mooc-ans/js/util/imgUtil.js?v=2025-1128-1100"></script>
+<script src="//mooc1.chaoxing.com/mooc-ans/space/work/js/attach-mark.js?v=2025-1128-1600"></script><script type="text/javascript" src="//mooc1.chaoxing.com/mooc-ans/mooc2/js/animation-question.js?v=2023-0216-1800"></script>
+<script type="text/javascript" src="//mooc1.chaoxing.com/mooc-ans/js/work/stu-knowledge-point-hover.js?v=2025-0707-1021"></script>
+<script type="text/javascript">window.SUPPORT_AUDIO_SETTING = true; window.SUPPORT_AUDIO_CONTROL = true;</script>
+<script src="//mooc1.chaoxing.com/mooc-ans/js/work/work-audio-playtimes.js?v=2024-0104-1500"></script>
+
+<input type="hidden" id="fromDevice" value="mooc2"/>
+
+<div class="maskDiv" style="display:none;z-index:1000;" id="audioLimitTimesWinNew">
+    <div class="popSetDiv wid440">
+        <div class="popHead RadisTop">
+            <a href="javascript:;" class="popClose fr" onclick="$('#audioLimitTimesWinNew').fullFadeOut();">
+                <img src="//mooc1.chaoxing.com/mooc-ans/mooc2/images/popClose.png"/>
+            </a>
+            <p class="fl fs18 color1">提示</p>
+        </div>
+        <div class="het62"></div>
+        <p class="popWord fs16 color2 audioLimitTimesTip">此附件仅支持打开 <span></span> 次，你已打开 <span></span> 次，不能再次打开</p>
+        <div class="popBottom RadisBom">
+            <a href="javascript:;" class="jb_btn jb_btn_92 fr fs14" onclick="$('#audioLimitTimesWinNew').fullFadeOut();">知道了</a>
+        </div>
+        <div class="het72"></div>
+    </div>
+</div>
+
+<div class="AlertCon02" style="width:400px; height:200px;display:none;" id="audioLimitTimesWin">
+    <h3 class="clearfix">
+        <a href="javascript:;" class="closed02 fr" onclick="WAY.box.hide();$('#audioLimitTimesWin').css('display','none')" style="margin-top:1px;"></a>
+    </h3>
+    <div class="con03">
+        <p class="audioLimitTimesTip" style="margin-top:16px;text-align:left;">此附件仅支持打开 <span></span> 次，你已打开 <span></span> 次，不能再次打开</p>
+        <div style="margin-top:60px;">
+            <a class="bluebtn" href="javascript:;" onclick="WAY.box.hide();$('#audioLimitTimesWin').css('display','none')">知道了</a>
+        </div>
+    </div>
+</div></head>
+<body>
+<script src="//mooc1.chaoxing.com/mooc-ans/space/work/js/preview-attach.js?v=2023-1102-1900"></script><link href="//mooc1.chaoxing.com/mooc-ans/css/work/viewer.min.css?v=2021-0830-1700" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="//mooc1.chaoxing.com/mooc-ans/js/jquery.md5.js"></script>
+<script type="text/javascript" src="//mooc1.chaoxing.com/mooc-ans/space/work/js/viewer-jquery.min.js?v=2025-1128-1511"></script>
+<script type="text/javascript">
+try{
+	$(function(){
+		var imgList = $(".TiMu").find("div img:not(.workAttach img, .attach img, .attachNew img, .stuAnswerArea img, .popClose img, .ans-formula-moudle, .no_view)");
+		for (var i = 0, len = imgList.size(); i < len; i++) {
+			 var src = imgList.eq(i).attr("src");
+			 if(src){
+    			var index = src.indexOf("375_1024");
+    			if (index != -1) {
+    				src = src.replace("375_1024", "origin");
+    			}
+                 var index2 = src.indexOf("750_1024");
+                 if (index2 != -1) {
+                     src = src.replace("750_1024", "origin");
+                 }
+    			imgList.eq(i).attr("data-original", src);
+		   }
+		}
+        $(".TiMu").find("div img:not(.workAttach img, .attach img, .attachNew img, .stuAnswerArea img, .popClose img, .no_view)").viewer({
+			url : 'data-original',
+		});
+	})
+  }catch(error){}
+</script>
+
+
+<input type="hidden" id="courseId" value="254792452" />
+<input type="hidden" id="classId" value="126273259" />
+<input type="hidden" id="cpi" value="425679406"/>
+<input type="hidden" id="workId" value="46927924" />
+<input type="hidden" id="answerId" value="55108821"/>
+<input type="hidden" id="enc" value="cf575ec48ef62a8d9878d3f57395d6a7"/>
+<input type="hidden" id="creatorId" value="425679406"/>
+
+<div class="subNav">作业详情</div>
+<div class="het40"></div>
+<div class="fanyaMarking TiMu" id="fanyaMarking">
+	<div class="fanyaMarking_left whiteBg">
+		<div class="borderBom padBom20 detailsHead" style="overflow: hidden;">
+						<h2 class="mark_title" tabindex="0">分区存储管理</h2>
+			<div class="infoHead fl" tabindex="0">
+				<span>题量: 16</span>
+				<span>满分: 101.5</span>
+				<div style="margin-top: 10px;margin-left: -9px;">
+					<p class="rightBord">作答时间:<em>10-17 11:07</em>至<em>10-22 12:07</em></p>
+									</div>
+			</div>
+
+						<div class="analysisCard fl">
+								<a target="_blank" href="https://stat2-ans.chaoxing.com/study-knowledge/ans?courseid=254792452&cpi=425679406&clazzid=126273259&ut=s&relationId=46927924&type=2"><i class="custom-style"></i>智能分析</a>
+											</div>
+			
+						<span class="resultNum" tabindex="0"><i class="custom-style">82.6</i>分</span>
+					</div>
+				
+				
+							<div class="mark_table padTop60 ans-cc fontLabel">
+								
+					
+					<div class="mark_item">
+						                            <h2 class="type_tit" tabindex="0">一. 单选题（共16题，101.5分）</h2>
+																							
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644896" data="404644896" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">1. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">*.固定分区存储管理中,处理器设置的地址转换机构是____________ 。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																																												<li tabindex="0" class="workTextWrap">A. 基址寄存器</li>
+																																							<li tabindex="0" class="workTextWrap">B. 限长寄存器</li>
+																																																												<li tabindex="0" class="workTextWrap">C. 基址寄存器和限长寄存器</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">C</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:基址寄存器和限长寄存器; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">A</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:基址寄存器; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_cuo"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">0</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644896', '0', '单选题', 'da1249ff0dc746e2983dcea57033b873', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644897" data="404644897" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">2. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">采用动态重定位方式装入的作业,在执行中允许____________将其移动。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																							<li tabindex="0" class="workTextWrap">A. 用户有条件地</li>
+																																							<li tabindex="0" class="workTextWrap">B. 用户无条件地</li>
+																																																																																	<li tabindex="0" class="workTextWrap">C. 操作系统有条件地</li>
+																																							<li tabindex="0" class="workTextWrap">D. 操作系统无条件地</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">C</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:操作系统有条件地; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">C</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:操作系统有条件地; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644897', '0', '单选题', 'e80442fa33034a708570921535625dd0', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644898" data="404644898" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">3. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">存储保护的工作通常由_____________实现。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																							<li tabindex="0" class="workTextWrap">A. 软件</li>
+																																							<li tabindex="0" class="workTextWrap">B. 硬件</li>
+																																							<li tabindex="0" class="workTextWrap">C. 文件</li>
+																																																																																	<li tabindex="0" class="workTextWrap">D. 硬件和软件配合</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">D</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:硬件和软件配合; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">D</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:硬件和软件配合; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644898', '0', '单选题', '7c10b308db58474194463cbe4b804295', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644899" data="404644899" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">4. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">分区分配内存管理方式的主要保护措施是__________。(2009全国试题)</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																																																																	<li tabindex="0" class="workTextWrap">A. 界地址保护</li>
+																																							<li tabindex="0" class="workTextWrap">B. 程序代码保护</li>
+																																							<li tabindex="0" class="workTextWrap">C. 数据保护</li>
+																																							<li tabindex="0" class="workTextWrap">D. 栈保护</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">A</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:界地址保护; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">A</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:界地址保护; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644899', '0', '单选题', 'ef7bc3dfea724535b4822fc392f18cf5', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644900" data="404644900" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">5. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">内存分配的最佳适应算法的空闲区表是_____________。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																							<li tabindex="0" class="workTextWrap">A. 按大小递减顺序排列</li>
+																																																																																	<li tabindex="0" class="workTextWrap">B. 按大小递增顺序排列</li>
+																																							<li tabindex="0" class="workTextWrap">C. 按地址由小到大排列</li>
+																																							<li tabindex="0" class="workTextWrap">D. 按地址由大到小排列</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">B</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:按大小递增顺序排列; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">B</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:按大小递增顺序排列; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644900', '0', '单选题', 'f17eda8f0bb2495d89b2c5e402e4167f', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644901" data="404644901" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">6. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">动态重定位是在____________完成的。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																							<li tabindex="0" class="workTextWrap">A. 作业执行前集中一次</li>
+																																							<li tabindex="0" class="workTextWrap">B. 作业执行过程中集中一次</li>
+																																																																																	<li tabindex="0" class="workTextWrap">C. 作业执行过程中</li>
+																																							<li tabindex="0" class="workTextWrap">D. 作业执行过程中由用户</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">C</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:作业执行过程中; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">C</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:作业执行过程中; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644901', '0', '单选题', '553efc605c854a20952a301892cd5156', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644902" data="404644902" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">7. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">把目标程序中的逻辑地址转换成主存空间的物理地址称为_______________。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																							<li tabindex="0" class="workTextWrap">A. 存储分配</li>
+																																																																																	<li tabindex="0" class="workTextWrap">B. 地址重定位</li>
+																																							<li tabindex="0" class="workTextWrap">C. 地址保护</li>
+																																							<li tabindex="0" class="workTextWrap">D. 程序移动</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">B</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:地址重定位; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">B</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:地址重定位; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644902', '0', '单选题', '5c6948ec25324e29b2e4b3676e08fcb5', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644903" data="404644903" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">8. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">某基于动态分区存储管理的计算机,其主存容量为55MB(初始为空闲),采用最佳适配(Best Fit)算法,分配和释放的顺序为:分配15MB、分配30MB、释放15MB、分配8MB、分配6MB,此时主存中最大空闲分区的大小是____________。(2010全国试题)</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																							<li tabindex="0" class="workTextWrap">A. 7MB</li>
+																																																												<li tabindex="0" class="workTextWrap">B. 9MB</li>
+																																																												<li tabindex="0" class="workTextWrap">C. 10MB</li>
+																																							<li tabindex="0" class="workTextWrap">D. 15MB</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">C</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:10MB; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">B</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:9MB; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_cuo"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">0</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644903', '0', '单选题', '04bebc72d7af45b58784de038dd5813a', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644904" data="404644904" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">9. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">主存的地址空间常称为____________。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																							<li tabindex="0" class="workTextWrap">A. 逻辑地址空间</li>
+																																							<li tabindex="0" class="workTextWrap">B. 程序地址空间</li>
+																																																																																	<li tabindex="0" class="workTextWrap">C. 物理地址空间</li>
+																																							<li tabindex="0" class="workTextWrap">D. 相对地址空间</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">C</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:物理地址空间; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">C</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:物理地址空间; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644904', '0', '单选题', '6432d87d7bac42988b684f563ff81581', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644905" data="404644905" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">10. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">在系统运行时,对于固定分区的存储管理方式,内存中能并发执行的作业的最大数量是<br>___________________。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																							<li tabindex="0" class="workTextWrap">A. 用户确定的</li>
+																																							<li tabindex="0" class="workTextWrap">B. 可变的</li>
+																																							<li tabindex="0" class="workTextWrap">C. 不受限制的</li>
+																																																																																	<li tabindex="0" class="workTextWrap">D. 固定的</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">D</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:固定的; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">D</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:固定的; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644905', '0', '单选题', 'df1ac33314c54c2e845b95d604ef10bf', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644906" data="404644906" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">11. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">设有3个起始地址都是0的目标模块A、B、C,长度依次为L、M、N,这3个模块按</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																							<li tabindex="0" class="workTextWrap">A. B、C顺序采用静态连接方式连接在一起后,模块C的起始地址变为____________。
+<br>A.L+M+N</li>
+																																																																																	<li tabindex="0" class="workTextWrap">B. L+M</li>
+																																							<li tabindex="0" class="workTextWrap">C. L+M-1</li>
+																																							<li tabindex="0" class="workTextWrap">D. L+M+1</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">B</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:L+M; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">B</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:L+M; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644906', '0', '单选题', '4132663784654e2c844e675dfc73ae7a', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644907" data="404644907" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">12. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">在可变分区分配方案中,在空闲区表中以空闲区长度按递减顺序排列适合于________算法。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																																																																	<li tabindex="0" class="workTextWrap">A. 最坏适应算法</li>
+																																							<li tabindex="0" class="workTextWrap">B. 最先适应算法</li>
+																																							<li tabindex="0" class="workTextWrap">C. 最优适应算法</li>
+																																							<li tabindex="0" class="workTextWrap">D. 首次循环适应算法</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">A</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:最坏适应算法; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">A</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:最坏适应算法; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644907', '0', '单选题', 'ef5b35d996a440998d87d55e8a0336ae', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644908" data="404644908" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">13. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">假设某计算机系统的内存大小为2560KB,采用可变分区管理内存,在某一时刻内存的使用情况如下表所示:<br>始址 0K 200K 500K 1000K 1050K 1350K 1600K 1750K 1950K 2350K<br>状态 已用 未用 已用 未用 已用 未用 已用 未用 已用 未用<br>容量 200K 300K 500K 50K 300K 250K 150K 200K 400K 210K<br>此时若进程顺序请求200K、100K和50K的存储空间,系统采用某种内存分配算法为进程依次分配内存,分配后的内存使用情况如下表所示:<br>始址 0K 400K 500K 1000K 1050K 1450K 1600K 1750K 1950K 2400K<br>状态 已用 未用 已用 未用 已用 未用 已用 未用 已用 未用<br>容量 400K 100K 500K 50K 400K 150K 150K 200K 450K 160K<br>则该系统采用的内存分配算法是____________适应算法。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																																												<li tabindex="0" class="workTextWrap">A. 首次</li>
+																																							<li tabindex="0" class="workTextWrap">B. 循环首次</li>
+																																							<li tabindex="0" class="workTextWrap">C. 最佳</li>
+																																																												<li tabindex="0" class="workTextWrap">D. 最坏</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">A</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:首次; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">D</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:最坏; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_cuo"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">0</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644908', '0', '单选题', '368593645321492685986ec3f08e9430', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644909" data="404644909" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">14. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">在可变分区存储管理中,最优适应分配算法要求对空闲区表项按____________进行排列。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																							<li tabindex="0" class="workTextWrap">A. 地址从大到小</li>
+																																							<li tabindex="0" class="workTextWrap">B. 地址从小到大</li>
+																																							<li tabindex="0" class="workTextWrap">C. 尺寸从大到小</li>
+																																																																																	<li tabindex="0" class="workTextWrap">D. 尺寸从小到大</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">D</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:尺寸从小到大; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">D</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:尺寸从小到大; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644909', '0', '单选题', '6067de61cdd943db95301d5337dd2071', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644910" data="404644910" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">15. <span class="colorShallow">(单选题, 6.3分)</span><span class="qtContent workTextWrap">某动态分区分配存储管理系统,系统刚把始址为230K的的一小块内存分配出去后,内存中的空闲分区情况如下表所示:<br>序号 分区大小(KB) 分区始址(K)<br>1 80 50<br>2 75 250<br>3 55 450<br>4 90 550<br>有一个作业申请50KB内存,系统把第2个空闲区分配给了该作业50KB,则该系统采用的分区分配算法是____________适应算法。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																							<li tabindex="0" class="workTextWrap">A. 首次</li>
+																																							<li tabindex="0" class="workTextWrap">B. 最佳</li>
+																																																																																	<li tabindex="0" class="workTextWrap">C. 循环首次</li>
+																																							<li tabindex="0" class="workTextWrap">D. 最坏</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">C</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:循环首次; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">C</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:循环首次; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">6.3</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644910', '0', '单选题', '10ddd659da014542803bcc6a91190444', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+																		
+						
+							<div class="marBom60 questionLi singleQuesId" style="word-wrap: break-word;" id="question404644911" data="404644911" tabindex="0" aria-label="题目详情">
+								<div class="aiArea">
+								<div class="aiAreaContent">
+																	<h3 class="mark_name colorDeep" tabindex="0">16. <span class="colorShallow">(单选题, 7分)</span><span class="qtContent workTextWrap">将主存空闲区按地址顺序从小到大登记在空闲区表中,每次分配时总是顺序查找空闲区表,此种分配算法称为____________分配算法。</span></h3>
+								
+																	<ul class="mark_letter colorDeep qtDetail">
+																																																																																	<li tabindex="0" class="workTextWrap">A. 首次适应</li>
+																																							<li tabindex="0" class="workTextWrap">B. 最优适应</li>
+																																							<li tabindex="0" class="workTextWrap">C. 最坏适应</li>
+																																							<li tabindex="0" class="workTextWrap">D. 随机适应</li>
+																		</ul>
+									
+									<div class="mark_answer" tabindex="0">
+										<div class="mark_key clearfix">
+											<span class="colorDeep marginRight40 fl"><i class="fontWeight custom-style">我的答案:</i><span class="stuAnswerContent">A</span></span>
+											<span class="element-invisible-hidden colorDeep marginRight40 fl">:首次适应; </span>
+																							<span class="colorGreen marginRight40 fl"><i class="fontWeight custom-style">正确答案:</i><span class="rightAnswerContent workTextWrap">A</span></span>
+											<span class="element-invisible-hidden colorGreen marginRight40 fl">:首次适应; </span>
+																					</div>
+										<div class="mark_score">
+											<div class=" fl catalog_tishi80">
+																								<div class="mark_judge_name">
+																										<span class="marking_dui"></span>
+																									</div>
+																							</div>
+																						<div class="totalScore fr"><i class="custom-style">7</i>分</div>
+																					</div>
+
+																				<!--显示知识点-->
+    <!--显示知识点-->
+									</div>
+
+																</div>
+																<a href="javascript:;" onclick="initAssistant('question404644911', '0', '单选题', '928baf659a25433ba4745905a281749b', '0', 0, '46927924')" class="aiAssistant"><span><i class="custom-style">AI讲解</i></span></a>
+																</div>
+							</div>
+											</div>
+							</div>
+			</div>
+	
+		<div class="fanyaMarking_right" id="rightHeight">
+		<div class="topicNumber" id="topicNumberScroll" tabindex="0" aria-label="答题卡">
+												
+						
+                        <div class="topicNumber_checkbox colorDeep fs14" tabindex="0">
+														一. 单选题（101.5分）                        </div>
+                        <ul class="topicNumber_list clearfix" tabindex="-1" aria-hidden="true" >
+							                                <li id="answerSheet404644896" data="404644896" class="active"  tabindex="0" role="option">1</li>
+							                                <li id="answerSheet404644897" data="404644897" class="active"  tabindex="0" role="option">2</li>
+							                                <li id="answerSheet404644898" data="404644898" class="active"  tabindex="0" role="option">3</li>
+							                                <li id="answerSheet404644899" data="404644899" class="active"  tabindex="0" role="option">4</li>
+							                                <li id="answerSheet404644900" data="404644900" class="active"  tabindex="0" role="option">5</li>
+							                                <li id="answerSheet404644901" data="404644901" class="active"  tabindex="0" role="option">6</li>
+							                                <li id="answerSheet404644902" data="404644902" class="active"  tabindex="0" role="option">7</li>
+							                                <li id="answerSheet404644903" data="404644903" class="active"  tabindex="0" role="option">8</li>
+							                                <li id="answerSheet404644904" data="404644904" class="active"  tabindex="0" role="option">9</li>
+							                                <li id="answerSheet404644905" data="404644905" class="active"  tabindex="0" role="option">10</li>
+							                                <li id="answerSheet404644906" data="404644906" class="active"  tabindex="0" role="option">11</li>
+							                                <li id="answerSheet404644907" data="404644907" class="active"  tabindex="0" role="option">12</li>
+							                                <li id="answerSheet404644908" data="404644908" class="active"  tabindex="0" role="option">13</li>
+							                                <li id="answerSheet404644909" data="404644909" class="active"  tabindex="0" role="option">14</li>
+							                                <li id="answerSheet404644910" data="404644910" class="active"  tabindex="0" role="option">15</li>
+							                                <li id="answerSheet404644911" data="404644911" class="active"  tabindex="0" role="option">16</li>
+							                        </ul>
+														</div>
+	</div>
+	</div>
+
+<div class="maskDiv popMoveShowHide" style="display:none;" id="recordList">
+	<div class="popDiv wid640 popMove">
+		<div class="popHead">
+			<a href="javascript:;" onclick="closeAnswers();" class="popClose popMoveDele fr"><img src="//mooc1.chaoxing.com/mooc-ans/mooc2/images/popClose.png" /></a>
+			<p class="fl fs18 colorDeep">作答记录</p>
+		</div>
+		<div class="het62"></div>
+				<div id="content"></div>
+	</div>			
+</div>
+<div id="aiAssistantId"></div>
+<script type="text/javascript" src="//mooc1.chaoxing.com/mooc-ans/js/ServerHost.js"></script>
+<script type="text/javascript" src="//mooc1.chaoxing.com/mooc-ans/mooc2/js/html2canvas.min.js"></script>
+<script type="text/javascript" async src="https://stat2-ans.chaoxing.com/stat2/js/cozebot-sdk.min.js"></script>
+<script type="text/javascript">
+    //0作业 1 考试 2 测验 3 自测
+    function initAssistant(exampleId, questionType, typeName, questionId, questionTypeId, taskType, taskId) {
+        var courseId = "254792452";
+        var classId = "126273259";
+        var cpi = "425679406";
+
+        var sourceObj = {
+            "serverName": "mooc1",
+            "businessTag": "question_assistant",
+            "extraData": {
+                "courseId": courseId,
+                "clazzId": classId,
+                "personId": cpi,
+                "relationType": taskType,
+                "relationId": taskId,
+                "questionType": questionType,
+                "questionTypeId": questionTypeId,
+                "questionId": questionId
+            }
+        };
+        var sourceInfo = JSON.stringify(sourceObj);
+        sourceInfo = encodeURIComponent(sourceInfo);
+
+        var text = getPlainText(exampleId, questionType);
+        if (text.length > 0) {
+            postTextMsg(text, sourceInfo);
+            return;
+        }
+
+        loadImgData(exampleId, sourceInfo);
+    }
+
+    function loadImgData(exampleId, sourceInfo) {
+        $.toast({type: "loading", time: 0, content: "生成提问中..."});
+
+        var tempDiv = cloneOriginDiv(exampleId);
+        $("#" + exampleId).append(tempDiv);
+
+        processImagesInDiv(tempDiv).then(() => convertDivToImage(tempDiv)).then((data) => {
+            var imgData = data.toDataURL("image/png", 0.9);
+            showAssistant(imgData, sourceInfo);
+            tempDiv.remove();
+            $("#dialogToast").remove();
+        }).catch((error) => {
+            console.error("处理图片或转换为图片时出错:", error);
+            $.toast({type: "failure", content: "处理图片或转换图片出错，请稍后重试"});
+            tempDiv.remove();
+            $("#dialogToast").remove();
+        });
+    }
+
+    function cloneOriginDiv(id) {
+        var originDiv = $("#" + id).find(".aiAreaContent")[0];
+        return originDiv.cloneNode(true);
+    }
+
+    function processImagesInDiv(tempDiv) {
+        var imgPromises = [];
+        $(tempDiv).find("img").each(function (idx, ele) {
+            var url = ele.src || "";
+            var starType = url.includes("/star3/") ? "star3" : url.includes("/star4/") ? "star4" : null;
+            if (!starType) {
+                return true;
+            }
+
+            var arr = url.split(starType);
+            if (arr.length < 2) {
+                return true;
+            }
+            url = location.protocol + "//" + location.hostname + "/p-ans/" + starType + arr[1];
+
+            var imgPromise = new Promise((resolve, reject) => {
+                var newImg = new Image();
+                newImg.onload = () => {
+                    ele.src = url;
+                    resolve();
+                };
+                newImg.onerror = reject;
+                newImg.src = url;
+            });
+            imgPromises.push(imgPromise);
+        });
+
+        return Promise.all(imgPromises);
+    }
+
+    function convertDivToImage(tempDiv) {
+        return html2canvas(tempDiv, {
+            ignoreElements: function (element) {
+                return element.classList.contains("element-invisible-hidden");
+            }
+        });
+    }
+
+    function showAssistant(imgData, sourceInfo) {
+        try {
+            CozeBotSDK.init({
+                appId: "1192651262850",
+                botId: "7429626930406326309",
+                rootElementId: "aiAssistantId",
+                upload: true,
+                target: 'https://stat2-ans.chaoxing.com',
+                sourceInfo: sourceInfo
+            });
+
+            CozeBotSDK.sendToIframeMessage({
+                eventName: "callCozeConversation",
+                isLastWindow: true
+            });
+
+            setTimeout(function () {
+                CozeBotSDK.sendToIframeImageBase64({
+                    eventName: "sendImgFile",
+                    imageBase64: imgData,
+                    presetMsg: "讲解一下这道题",
+                    model: 1
+                });
+            }, 1000);
+        } catch (e) {
+            console.error("Error in CozeBotSDK:", e);
+        }
+    }
+
+    function postTextMsg(text, sourceInfo) {
+        try {
+            CozeBotSDK.init({
+                appId: "1192651262850",
+                botId: "7429626930406326309",
+                rootElementId: "aiAssistantId",
+                upload: true,
+                target: 'https://stat2-ans.chaoxing.com',
+                sourceInfo: sourceInfo
+            });
+
+            CozeBotSDK.sendToIframeMessage({
+                eventName: "callCozeConversation",
+                isLastWindow: true
+            });
+
+            setTimeout(function () {
+                CozeBotSDK.sendToIframeMessage({
+                    eventName: "sendMsgCozeConversation",
+                    msg: text,
+                    model: 1
+                });
+            }, 1000);
+        } catch (e) {
+            console.error("Error in CozeBotSDK:", e);
+        }
+    }
+
+    function getPlainText(id, questionType) {
+        var source = $("#" + id);
+        var contnt = source.find(".qtContent");
+        if (contnt.find("img, iframe").length > 0) {
+            return "";
+        }
+        var html = "讲解一下这道题：\n" + "\#\#\# 题目：\n" + contnt.text() + "\n";
+
+        var detail = source.find(".qtDetail");
+        if (detail.find("img, iframe").length > 0) {
+            return "";
+        }
+        if (questionType == 11 || questionType == 14) {
+            detail.find("dt, dd").each(function () {
+                var option = $(this).text();
+                html += option + "\n";
+            });
+        } else if (questionType == 20) {
+            detail.each(function () {
+                var option = $(this).text();
+                html += option + "\n";
+            });
+        } else {
+            detail.find("li").each(function () {
+                var option = $(this).text();
+                html += option + "\n";
+            });
+        }
+
+        var studentAnswer = source.find(".stuAnswerContent");
+        if (studentAnswer.find("img, iframe").length > 0) {
+            return "";
+        }
+        if (studentAnswer.length > 0) {
+            html += "\#\#\# 我的答案：\n";
+        }
+        studentAnswer.each(function () {
+            if (questionType == 17) {
+                var answer = $(this).html();
+                var htmlContent = $(answer);
+                htmlContent.children("*").each(function () {
+                    var text = $(this).text().trim();
+                    if (text) {
+                        html += text + "\n";
+                    }
+                });
+            } else {
+                var option = $(this).text();
+                html += option + "\n";
+            }
+        });
+
+        var rightAnswer = source.find(".rightAnswerContent");
+        if (rightAnswer.find("img, iframe").length > 0) {
+            return "";
+        }
+        if (rightAnswer.length > 0) {
+            html += "\#\#\# 正确答案：\n";
+        }
+        rightAnswer.each(function () {
+            var option = $(this).text();
+            html += option + "\n";
+        });
+
+        var analysis = source.find(".qtAnalysis");
+        if (analysis.find("img, iframe").length > 0) {
+            return "";
+        }
+        if (analysis.length > 0 && analysis.text().trim().length > 0) {
+            html += "\#\#\# 答案解析：\n" + analysis.text() + "\n";
+        }
+
+        return html;
+    }
+</script><link rel="stylesheet" type="text/css" href="//mooc1.chaoxing.com/mooc-ans/mooc2/css/prompt.css?v=2023-0711-1500"/>
+<style>
+	.mask-no-bg{background:none!important;}
+	.mask-no-bg .popDiv{box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.08);}
+</style>
+<div class="maskDiv" style="display:none;" id="workpop">
+	<div class="popDiv wid440 Marking">
+		<div class="popHead" id="workpopFocus" role="alertdialog" tabindex="0">
+			<a id="popCloseFocus"  href="javascript:;" class="popClose fr" onclick="popClickFunc()" tabindex="-1"><img src="//mooc1.chaoxing.com/mooc-ans/images/popClose.png" id="popCloseFocusImg" onkeydown="if(event.keyCode == 13){popCloseFocus();}" role="button" tabindex="-1" aria-label="关闭"/></a>
+			<p class="fl fs18 colorDeep" tabindex="0" role="option">提示</p>
+		</div>
+		<div class="het62"></div>
+		<p class="popWord fs16 colorIn" id="popcontent" tabindex="0"></p>
+
+		<div class="popBottom">
+			<a href="javascript:;" id="popok" class="jb_btn jb_btn_92 fr fs14" tabindex="0" role="button" aria-label="确定"></a>
+			<a href="javascript:;" id="popno" class="btnBlue btn_92_cancel fr fs14" onkeydown="popnoFocus();" tabindex="0" role="button" aria-label="取消"></a>
+		</div>
+		<div class="het72"></div>
+			</div>
+</div>
+
+<div class="mask-no-bg" style="display:none;" id="worktoast">
+	<div class="popDiv wid440 Marking" style="top: 30%;">
+		<div class="popHead">
+			<a href="javascript:;" class="popClose fr" onclick="toastClickFunc()"><img src="//mooc1.chaoxing.com/mooc-ans/images/popClose.png" /></a>
+			<p class="fl fs18 colorDeep">提示</p>
+		</div>
+		<div class="het62"></div>
+		<p class="popWord fs16 colorIn" id="toastcontent"></p>
+
+		<div class="popBottom">
+			<a href="javascript:;" id="toastok" class="jb_btn jb_btn_92 fr fs14"></a>
+			<a href="javascript:;" id="toastno" class="btnBlue btn_92_cancel fr fs14"></a>
+		</div>
+		<div class="het72"></div>
+	</div>
+</div>
+
+<div class="maskDiv" style="display:none;" id="hintPop">
+	<div class="popDiv wid440 Marking">
+		<div class="popHead">
+			<p class="fl fs18 colorDeep">提示</p>
+		</div>
+		<div class="het62"></div>
+		<p class="popWord fs16 colorIn" id="hintCon"></p>
+		<div class="popBottom">
+			<a href="javascript:;" id="hintOk" class="jb_btn jb_btn_92 fr fs14"></a>
+		</div>
+		<div class="het72"></div>
+	</div>
+</div>
+<script>
+function popClickFunc() {
+	$('#workpop').hide();
+	if($('.popSetupShowHide').length > 0){
+		$('.popSetupShowHide').fullFadeOut();
+	}
+}
+
+function toastClickFunc() {
+	$('#worktoast').hide();
+	if($('.popSetupShowHide').length > 0){
+		$('.popSetupShowHide').fullFadeOut();
+	}
+}
+
+
+function workPop(content, okTent, cancelTent, okcallback, cancelCallback) {
+	var ta = $("#workpop");
+
+	if($('.popSetupShowHide').length > 0){
+		$(".popSetupShowHide").fullFadeIn();
+	}
+
+	ta.show();
+	
+	$("#popcontent").html(content);
+	var popokHiddenRead = $("#popokHiddenRead");
+
+	var ok = $("#popok");
+	ok.html(okTent);
+	ok.unbind();
+	ok.on("click", function() {
+		// 无障碍单位走定制,延迟语音读取处理
+		if("0" == "1") {
+			popokHiddenRead.attr("tabindex","0");
+			if (content && content != '很遗憾，未达到及格线，请重做') {
+				popokHiddenRead.focus();
+			}
+			setTimeout(function() {
+				okcallback && okcallback(ta);
+				popokHiddenRead.attr("tabindex","-1")
+				ta.hide();
+				if($('.popSetupShowHide').length > 0) {
+					$(".popSetupShowHide").fullFadeOut();
+				}
+			}, 1000)
+		} else {
+			okcallback && okcallback(ta);
+			ta.hide();
+
+			if($('.popSetupShowHide').length > 0) {
+				$(".popSetupShowHide").fullFadeOut();
+			}
+		}
+	});
+
+	var cancel = $("#popno");
+	cancel.html(cancelTent);
+	cancel.unbind();
+	cancel.on("click", function() {
+		cancelCallback && cancelCallback(ta);
+		ta.hide();
+		if($('.popSetupShowHide').length > 0) {
+			$(".popSetupShowHide").fullFadeOut();
+		}
+	});
+	if("0" == "1") {
+		$("#workpopFocus").focus();
+	}
+}
+
+function workToast(content, okTent, cancelTent, okcallback, cancelCallback) {
+	var ta = $("#worktoast");
+
+	if($('.popSetupShowHide').length > 0) {
+		$(".popSetupShowHide").fullFadeIn();
+	}
+
+	ta.show();
+
+	$("#toastcontent").html(content);
+
+	var ok = $("#toastok");
+	ok.html(okTent);
+	ok.unbind();
+	ok.on("click", function() {
+		okcallback && okcallback(ta);
+		ta.hide();
+
+		if($('.popSetupShowHide').length > 0) {
+			$(".popSetupShowHide").fullFadeOut();
+		}
+	});
+
+	var cancel = $("#toastno");
+	cancel.html(cancelTent);
+	cancel.unbind();
+	cancel.on("click", function() {
+		cancelCallback && cancelCallback(ta);
+		ta.hide();
+		if($('.popSetupShowHide').length > 0) {
+			$(".popSetupShowHide").fullFadeOut();
+		}
+	});
+}
+
+function workHint(content, okTent, okcallback) {
+	var ta = $("#hintPop");
+
+	if($('.popSetupShowHide').length > 0) {
+		$(".popSetupShowHide").fullFadeIn();
+	}
+
+	ta.show();
+
+	$("#hintCon").html(content);
+
+	var ok = $("#hintOk");
+	ok.html(okTent);
+	ok.unbind();
+	ok.on("click", function() {
+		okcallback && okcallback(ta);
+		ta.hide();
+
+		if($('.popSetupShowHide').length > 0) {
+			$(".popSetupShowHide").fullFadeOut();
+		}
+	});
+}
+
+function popFocus() {
+	if("0" != "1") {
+		return;
+	}
+	$("#popCloseFocusImg").attr("tabindex","0");
+	$("#popCloseFocus").focus();
+}
+function popCloseFocus() {
+	if("0" != "1") {
+		return;
+	}
+	$('#workpop').hide();
+	if($('.popSetupShowHide').length > 0) {
+		$('.popSetupShowHide').fullFadeOut();
+	}
+	$("#popCloseFocusImg").attr("tabindex","-1");
+}
+function popnoFocus() {
+	if("0" != "1") {
+		return;
+	}
+	if(event.keyCode == 9){
+		popFocus();
+	}
+	if(event.keyCode == 13){
+		$("#popCloseFocusImg").attr("tabindex","-1");
+	}
+}
+
+</script><!-- 代码高亮开始 start -->
+<link type="text/css" href="//mooc1.chaoxing.com/mooc-ans/views/mooc2/ueditor/insertcode/css/default.min.css" rel="stylesheet" />
+<script type="text/javascript" src="//mooc-res2.chaoxing.com/mooc-ans/js/highlight.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="//mooc-res2.chaoxing.com/mooc-ans/js/highlightjs-line-numbers.js" charset="utf-8"></script>
+<style>
+    pre,code {display: block;background: #F7F8FA;border: 1px solid #E1E3E5; font-size: 14px; border-radius: 4px; padding: 30px 20px; margin: 20px 0; font-family: CXHackSafariFont,CXEmojiFont,CXChineseQuote,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma, Arial,Segoe UI,PingFang SC, Hiragino Sans GB,Microsoft YaHei,sans-serif,Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,Noto Color Emoji; }
+    pre{overflow-x: auto;margin:.5em 0;padding:.4em .6em;border-radius:8px;background:#f8f8f8;}
+    pre.autolinebreak{white-space: normal; }
+    code.hljs{background: #F7F8FA;}
+    pre code,pre pre{ margin: 0; background: none;border: none;}/*padding: 0;*/
+    .code-tool-wrap{padding-bottom: 1em;left: 20px; top: 2px; width: calc(100% - 40px); height: 24px; font-size: 14px; user-select: none;}
+    .code-lang{ display:inline-block; color: #ACB4BF; }
+    .ans-cc .ans-noborder th,.ans-cc .ans-noborder td{border-color:transparent;}
+    .ans-cc pre,.ans-cc code{ position: relative; padding: 0px 20px 30px; margin: 20px 0;border: 1px solid #E1E3E5; border-radius: 4px; color: #474C59; background: #F7F8FA; font-size:14px; font-family: CXHackSafariFont,CXEmojiFont,CXChineseQuote,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Tahoma, Arial,Segoe UI,PingFang SC, Hiragino Sans GB,Microsoft YaHei,sans-serif,Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,Noto Color Emoji;  }
+    .ans-cc pre{overflow: auto}
+    .ans-cc pre code,.ans-cc pre pre{ padding: 0; border:none; margin: 0; background: none;border-radius: 0;}
+    .ans-cc pre.autolinebreak{white-space: pre-wrap;word-wrap: break-word;}
+    .hljs-ln-numbers {text-align: center;color: #ccc;border-right: 1px solid #CCC;vertical-align: top;padding-right: 5px !important;}
+    .hljs-ln-code {padding-left: 5px !important;}
+    /* 全局去掉表格样式 */
+    .ans-cc pre code table tr td {border: solid 0px #cfd4dc;text-align: left}
+    /* 作业表格适配，考试表格适配 */
+    .ans-cc pre table{table-layout: unset;}
+    .ans-cc pre code table{table-layout: unset;}
+    /* pre 标签未换行 */
+    .ans-cc pre.line-numbers{clear:both}
+    .ans-cc pre{clear:both}
+
+    /* app作业库 考试库 查看样式 */
+
+    .hljs-link, .hljs-operator, .hljs-regexp, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-symbol, .hljs-template-variable, .hljs-variable {
+        color: #ab5656 !important;
+    }
+    .hljs-deletion, .hljs-number, .hljs-quote, .hljs-selector-class, .hljs-selector-id, .hljs-string, .hljs-template-tag, .hljs-type {
+        color: #800 !important;
+    }
+    /* 章节作业 */
+    .hljs-ln span{margin-right:0}
+
+    /* 学习通颜色覆盖 */
+    .hljs-type{color:#800 !important;}
+    .hljs-section,.hljs-title{color:#800 !important;font-weight:700}
+    /* 背景颜色 */
+    .ans-cc pre code td{background-color: unset;}
+</style>
+<link type="text/css" href="//mooc1.chaoxing.com/mooc-ans/css/newEditor.css?v=2023-0609-1900" rel="stylesheet" />
+<script>
+    /**
+     * 保证最后加载
+     */
+    $(function () {
+        var pre = $(".ans-cc").find('pre')
+        if(pre){
+            pre.each(function () {
+                // debugger
+                var me = this;
+                if ($(me).hasClass('CodeMirror-line')) { //代码编辑器
+                    return;
+                }
+                var lang = me.firstChild && me.firstChild.lang;
+                if (typeof (lang) == 'undefined' || lang == null || lang == "" ) {
+                    lang = me.firstChild && me.firstChild.className;
+                    if (typeof (lang) != 'undefined' && lang != null && lang != "" ) {
+                        var split = lang.split("-");
+                        lang = split[1];
+                        if (lang == 'plain') {
+                            lang = 'Plain Text';
+                        }
+                    } else {
+                        lang = 'Plain Text';
+                    }
+                }
+                me.innerHTML = '<div class="code-tool-wrap clearfix"><div class="code-lang fl">' + lang
+                        + '</div><div class="copy1 fr"><i></i><span></span></div></div>' + me.innerHTML;
+                me.innerHTML = me.innerHTML.replace(/<br\s*\/?>/g, "\n");
+            })
+        }
+
+        try {
+            hljs.initHighlightingOnLoad();
+            hljs.initLineNumbersOnLoad({ singleLine:true });
+        } catch (e) {
+
+        }
+    })
+</script>
+<!-- 代码高亮结束 end -->
+
+<script>
+
+$(function () {
+	$(".viewAttach").find("span:first").each(function () {
+		$(this).attr("onclick", "viewMark(this);");
+	});
+});
+
+var courseId = $("#courseId").val();
+var classId = $("#classId").val();
+var cpi = $("#cpi").val();
+var workId = $("#workId").val();
+var answerId = $("#answerId").val();
+var enc = $("#enc").val();
+
+function modifyAnswer() {
+	location.href = "/mooc-ans/mooc2/work/dowork?courseId=254792452&classId=126273259&cpi=425679406&workId=46927924"
+			+ "&answerId=55108821&knowledgeId=&jobid=&standardEnc=d4e82053e2fca05f058c1e9c36284d78&enc=cf575ec48ef62a8d9878d3f57395d6a7";
+}
+
+function redoWork() {
+	
+	var redoTimes = 0 + 0 - 0;
+	var msg = "你还可以重做" + redoTimes + "次，确认重做后，前一次作答记录会被覆盖，作业成绩以本次成绩为最终成绩，是否继续？";
+	
+	workPop(msg, "重做", "取消", function() {
+		$.ajax({
+			type : "get",
+			url : _HOST_CP2_ + "/work/phone/redo",
+			dataType : "json",
+			data : {
+				courseId : courseId,
+				classId : classId,
+				cpi : cpi,
+				workId : workId,
+				workAnswerId : answerId
+			},
+			success : function(data) {
+				if(data.status == 1) {
+					location.href = "/mooc-ans/mooc2/work/dowork?courseId=254792452&classId=126273259&cpi=425679406&workId=46927924&answerId=55108821&knowledgeId=&jobid=&standardEnc=d4e82053e2fca05f058c1e9c36284d78&enc=cf575ec48ef62a8d9878d3f57395d6a7";
+				} else {
+					$.toast({
+						type : 'failure',
+						content : data.msg
+					});
+				}
+			}
+		});
+	});
+}
+
+var recordLock = 0
+function answerList() {
+	if(recordLock == 1) {
+		return;
+	}
+	recordLock = 1;
+	
+	$.ajax({
+		type : "get",
+		url : _HOST_CP2_ + "/mooc2/work/answer-list",
+		dataType : "html",
+		data : {
+			courseId : courseId,
+			classId : classId,
+			cpi : cpi,
+			workId : workId,
+			answerId : answerId,
+			enc : enc
+		},
+		success : function(data) {
+			$("#content").html(data);
+			$("#recordList").show();
+			MoveFixed();
+		}
+	});
+}
+
+function closeAnswers() {
+	$("#recordList").hide();
+	recordLock = 0;
+}
+
+function MoveFixed() {
+	$('.popMove').css({
+		top : function() {
+			return ($(window).height() - $(this).height()) / 2;
+		},
+		left : function() {
+			return ($(window).width() - $(this).width()) / 2;
+		}
+	});
+	
+	$("#boxscroll").niceScroll({
+		cursorborder : "",
+		cursorcolor : "#D9DDE1",
+		boxzoom : false
+	});
+}
+
+</script>
+</body>
+</html>
